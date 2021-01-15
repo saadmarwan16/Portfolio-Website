@@ -13,6 +13,7 @@
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
         crossorigin="anonymous"/>
         <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
         <link rel="stylesheet" href="styles.css">
 
@@ -80,8 +81,9 @@
                         and the most populous metropolitan area in the world.
                     </p>
                 </div>
-                <a href="#work" class="btn">My Work</a> 
             </div>
+
+            <a href="#work" class="btn">My Work</a>
         </section>
 
         <section class="about-me" id="about">
@@ -108,31 +110,173 @@
             <h2 class="section__title section__title--work">My Work</h2>
             <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
 
-            <div class="portfolio">
-                <a href="#" class="portfolio__item">
-                    <img src="windows-computer.jpg" alt="A picture of a windows computer" class="portfolio__img">
-                </a>
+            <div class="container-fluid">
+                <div class="row project">
+                    <div class="col-sm-6 col-12">
+                        <h3 class="project-name">Project Name: <b>Network</b></h3>
+                        <p class="timestamp">Timestamps:</p>
+                        <p class="timestamp">Intro - 0:00</p>
+                        <p class="timestamp">0:21 - New Post</p>
+                        <p class="timestamp">1:03 - All Posts</p>
+                        <p class="timestamp">1:20 - Profile Page</p>
+                        <p class="timestamp">2:07 - Following</p>
+                        <p class="timestamp">2:38 - Pagination</p>
+                        <p class="timestamp">2:56 - Edit Post</p>
+                        <p class="timestamp">3:19 - "Like" and "Unlike"</p>
 
-                <a href="#" class="portfolio__item">
-                    <img src="windows-computer.jpg" alt="A picture of a windows computer" class="portfolio__img">
-                </a>
+                        <div class="project__details">
+                            <a href="#work" class="btn project__details--btn">View site</a>
+                            <a href="#work" class="btn project__details--btn">View code</a>
+                        </div>
+                    </div>
 
-                <a href="#" class="portfolio__item">
-                    <img src="windows-computer.jpg" alt="A picture of a windows computer" class="portfolio__img">
-                </a>
+                    <div class="col-sm-6 col-12">
+                        <div class="portfolio">
+                            <!-- <a href="#" class="portfolio__item">
+                                <img src="windows-computer.jpg" alt="A picture of a windows computer" class="portfolio__img">
+                            </a> -->
+                            <!-- <iframe style="border: none;" src="https://youtu.be/3kUszvX_hzg" width="100%" title="Network"></iframe> -->
 
-                <a href="#" class="portfolio__item">
-                    <img src="windows-computer.jpg" alt="A picture of a windows computer" class="portfolio__img">
-                </a>
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/3kUszvX_hzg" 
+                            frameborder="0" class="iframe"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
 
-                <a href="#" class="portfolio__item">
-                    <img src="windows-computer.jpg" alt="A picture of a windows computer" class="portfolio__img">
-                </a>
+                <div class="row project">
+                    <div class="col-sm-6 col-12">
+                        <h3 class="project-name">Project Name: <b>Mail</b></h3>
+                        <p class="timestamp">Timestamps:</p>
+                        <p class="timestamp">Intro - 0:00</p>
+                        <p class="timestamp">0:04 - Send Mail</p>
+                        <p class="timestamp">0:26 - Mailbox</p>
+                        <p class="timestamp">0:33 - View Email</p>
+                        <p class="timestamp">1:15 - Archive and Unarchive</p>
+                        <p class="timestamp">2:03 - Reply</p>
 
-                <a href="#" class="portfolio__item">
-                    <img src="windows-computer.jpg" alt="A picture of a windows computer" class="portfolio__img">
-                </a>
+                        <!-- <a href="#work" class="btn">View code</a>
+                        <a href="#work" class="btn">View site</a> -->
+
+                        <div class="project__details">
+                            <a href="#work" class="btn project__details--btn">View site</a>
+                            <a href="#work" class="btn project__details--btn">View code</a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-12">
+                        <div class="portfolio">
+                            <!-- <a href="#" class="portfolio__item">
+                                <img src="windows-computer.jpg" alt="A picture of a windows computer" class="portfolio__img">
+                            </a> -->
+
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/UbkohcEt81s" 
+                            frameborder="0" class="iframe" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row project">
+                    <div class="col-sm-6 col-12">
+                        <h3 class="project-name">Project Name: <b>Commerce</b></h3>
+                        <p class="timestamp">Timestamps:</p>
+                        <p class="timestamp">Intro - 0:00</p>
+                        <p class="timestamp">0:04 - Create Listing</p>
+                        <p class="timestamp">0:25 - Active Listings Page</p>
+                        <p class="timestamp">0:45 - Listing Page</p>
+                        <p class="timestamp">1:35 - Categories</p>
+                        <p class="timestamp">3:28 - Watchlist</p>
+                        <p class="timestamp">3:56 - Models</p>
+                        <p class="timestamp">4:40 - Django Admin Interface</p>
+
+                        <!-- <a href="#work" class="btn">View code</a>
+                        <a href="#work" class="btn">View site</a> -->
+
+                        <div class="project__details">
+                            <a href="#work" class="btn project__details--btn">View site</a>
+                            <a href="#work" class="btn project__details--btn">View code</a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-12">
+                        <div class="portfolio">
+                            <!-- <a href="#" class="portfolio__item">
+                                <img src="windows-computer.jpg" alt="A picture of a windows computer" class="portfolio__img">
+                            </a> -->
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/oRb_khfQylE" 
+                            frameborder="0" class="iframe" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row project">
+                    <div class="col-sm-6 col-12">
+                        <h3 class="project-name">Project Name: <b>Wiki</b></h3>
+                        <p class="timestamp">Timestamps:</p>
+                        <p class="timestamp">Intro - 0:00</p>
+                        <p class="timestamp">0:04 - Entry Page</p>
+                        <p class="timestamp">0:20 - Index Page</p>
+                        <p class="timestamp">1:10 - Random Page</p>
+                        <p class="timestamp">1:25 - Search</p>
+                        <p class="timestamp">2:15 - New Page</p>
+                        <p class="timestamp">3:26 - Markdown Conversion</p>
+                        <p class="timestamp">4:10 - Edit Page</p>
+
+                        <!-- <a href="#work" class="btn">View code</a>
+                        <a href="#work" class="btn">View site</a> -->
+
+                        <div class="project__details">
+                            <a href="#work" class="btn project__details--btn">View site</a>
+                            <a href="#work" class="btn project__details--btn">View code</a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-12">
+                        <div class="portfolio">
+                            <!-- <a href="#" class="portfolio__item">
+                                <img src="windows-computer.jpg" alt="A picture of a windows computer" class="portfolio__img">
+                            </a> -->
+
+                            <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/Uc4gkMd1C8Q" 
+                            frameborder="0" class="iframe" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <!-- <div class="portfolio">
+                <a href="#" class="portfolio__item">
+                    <img src="windows-computer.jpg" alt="A picture of a windows computer" class="portfolio__img">
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="windows-computer.jpg" alt="A picture of a windows computer" class="portfolio__img">
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="windows-computer.jpg" alt="A picture of a windows computer" class="portfolio__img">
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="windows-computer.jpg" alt="A picture of a windows computer" class="portfolio__img">
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="windows-computer.jpg" alt="A picture of a windows computer" class="portfolio__img">
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="windows-computer.jpg" alt="A picture of a windows computer" class="portfolio__img">
+                </a>
+            </div> -->
         </section>
 
         <footer class="footer">
